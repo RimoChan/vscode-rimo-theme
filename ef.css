@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.monaco-editor[data-uri^="file:"] {
+  background-image: url("file:///D:/封印内/test.png") !important;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%; }
+  .monaco-editor[data-uri^="file:"] .monaco-editor-background {
+    background-color: transparent; }
+  .monaco-editor[data-uri^="file:"] .margin {
+    background-color: transparent; }
+
+.mtk17, .mtk19 {
+  text-shadow: 0px 0px 4px white; }
+
+/*# sourceMappingURL=ef.css.map */

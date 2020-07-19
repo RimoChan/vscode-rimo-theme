@@ -1,0 +1,27 @@
+{
+	"name": "theme-defaults",
+	"displayName": "rimo",
+	"description": "rimonyanyanya",
+	"categories": [ "Themes" ],
+	"version": "1.0.0",
+	"publisher": "rimo",
+	"license": "MIT",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"id": "Default Rimo",
+				"label": "Rimo (喵喵喵喵喵喵喵喵喵喵喵喵喵喵这样才选得快)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/rimo.json"
+			},
+		],
+		"iconThemes": [
+			{
+				"id": "vs-minimal",
+				"label": "Minimal (Visual Studio Code)",
+				"path": "./fileicons/vs_minimal-icon-theme.json"
+			}
+		]
+	}
+}
